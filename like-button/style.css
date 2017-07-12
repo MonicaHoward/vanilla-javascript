@@ -1,3 +1,13 @@
+.polaroid {
+border: 10px solid #AAAAAA;
+display: inline-block;
+padding: 1%;
+width: 60%;
+}
 img {
-  width: 30%;
+  display: block;
+  width: 100%;
+}
+.container {
+  text-align: center;
 }
