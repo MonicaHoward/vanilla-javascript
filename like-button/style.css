@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 .polaroid {
-border: 10px solid #AAAAAA;
-display: inline-block;
-padding: 1%;
+border: 5px solid #AAAAAA;
+margin: 0 auto;
+padding: 1% 1% 10% 1%;
+text-align: center;
 width: 60%;
 }
 img {
@@ -9,5 +12,26 @@ img {
   width: 100%;
 }
 .container {
+  font-family: 'Permanent Marker', cursive;
   text-align: center;
+}
+h3 {
+  float: left;
+  font-size: 2em;
+  margin: 5% 1%;
+}
+button {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  float: right;
+  font-size: 1em;
+  line-height: 2;
+  margin: 6% 1%;
+  width: 15%;
+}
+span {
+  border-left: 1px solid white;
+  margin: 10%;
+  padding: 10%;
 }
