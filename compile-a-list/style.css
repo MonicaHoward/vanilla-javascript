@@ -2,15 +2,19 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+h3 {
+  border-bottom: 5px solid gray;
+}
 section:nth-child(1) {
-  border: 1px solid gray;
+  border: 5px solid gray;
   float: left;
+  margin: 10px;
   width: 40%;
 }
 section:nth-child(2) {
   border: 1px solid gray;
   float: left;
-  margin: 300px 60px;
+  margin: 300px 0px;
   text-align: center;
   width: 10%;
 }
@@ -20,7 +24,8 @@ section:nth-child(2) {
   text-align: center;
 }
 section:nth-child(3) {
-  border: 1px solid gray;
+  border: 5px solid gray;
   float: right;
+  margin: 10px;
   width: 40%;
 }
